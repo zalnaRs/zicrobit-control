@@ -19,7 +19,6 @@ const MainAppBar = () => {
             edge="start"
             color="inherit"
             aria-label="refresh"
-            sx={{ mr: 2 }}
             onClick={() => refreshData()}
           >
             <Refresh />
