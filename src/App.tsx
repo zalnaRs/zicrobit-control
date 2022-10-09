@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from '@suid/material';
 import CssBaseline from '@suid/material/CssBaseline';
 import { Component, onMount } from 'solid-js';
 import MainAppBar from './components/MainAppBar';
-import DeviceProvider from './lib/device';
+import DeviceProvider from './contexts/DeviceProvider';
 import Connect from './pages/Connect';
 import Home from './pages/Home';
 
